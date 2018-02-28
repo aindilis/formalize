@@ -1,0 +1,6 @@
+((#$and (#$isa (#$InstanceFn "?ANDREW2") #$MaleHuman) (#$givenNames
+(#$InstanceFn "?ANDREW2") "Andrew") (#$isa ?WAS3 (#$ThingDescribableAsFn
+(#$WordFn "here") #$Adverb)) :COMPLEMENT) (#$and (#$isa (#$InstanceFn
+"?ANDREW2") #$HomoSapiens) (#$lastName (#$InstanceFn "?ANDREW2") "Andrew")
+(#$isa ?WAS3 (#$ThingDescribableAsFn (#$WordFn "here") #$Adverb))
+:COMPLEMENT))

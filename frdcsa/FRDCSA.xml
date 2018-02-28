@@ -1,0 +1,16 @@
+<system>
+  <title>
+    Formalize
+  </title>
+  <short-description>
+    translates NL to Logic
+  </short-description>
+  <medium-description>
+    System to translate NL to logic.  Currently based on OpenCyc,
+    Wordnet, Ted Pedersen's WSD modules, etc.  May possibly add Alvis
+    to the chain.  Converts NL to Logic Form using Enju.
+  </medium-description>
+  <long-description>
+    
+  </long-description>
+</system>

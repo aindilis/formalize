@@ -1,0 +1,19 @@
+#!/usr/bin/perl -w
+
+use Formalize;
+
+use UniLang::Agent::Agent;
+use UniLang::Util::Message;
+
+$UNIVERSAL::agent = UniLang::Agent::Agent->new
+  (Name => "Formalize",
+   ReceiveHandler => \&Receive);
+$UNIVERSAL::formalize = Formalize->new();
+
+sub Receive {
+  my %args = @_;
+  $UNIVERSAL::formalize->ProcessMessage
+    (Message => $args{Message});
+}
+
+$UNIVERSAL::formalize->Execute();

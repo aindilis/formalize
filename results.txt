@@ -1,0 +1,408 @@
+$VAR1 = [
+          '/usr/share/perl5/Capability/TheoremProving/Vampire/VampireKIF.pm',
+          'use KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Capability/TheoremProving/Vampire/VampireKIF.pm',
+          'use KBS2::Util::SZSProblemStatusOntology;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Capability/TheoremProving/Vampire/VampireKIF.pm',
+          '    (KBS2::Util::SZSProblemStatusOntology->new());'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Do/ListProcessor.pm',
+          '	       Receiver => "KBS2",'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Do/ListProcessor.pm',
+          '	 Receiver => "KBS2",'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Do/Correlator.pm',
+          'use KBS2::Client;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Do/Correlator.pm',
+          'use KBS2::ImportExport;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Do/Correlator.pm',
+          'use KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Do/Correlator.pm',
+          '  # (KBS2::ImportExport->new());'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Do/Correlator.pm',
+          '    (KBS2::Client->new);'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Do/Misc/ListProcessor2.pm',
+          '	     Receiver => "KBS2",'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Do/Misc/ListProcessor2.pm',
+          '			 Receiver => "KBS2",'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Do/Misc/ListProcessor2.pm',
+          '	     Receiver => "KBS2",'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Formalize2.pm',
+          'use KBS2::ImportExport;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Formalize2.pm',
+          '    (KBS2::ImportExport->new);'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/Formalize2.pm',
+          '	  # fix this for KBS2'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Rules.pm',
+          'package KBS2::Rules;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Rules.pm',
+          'use KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Handler.pm',
+          'package KBS2::Handler;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Util/SZSProblemStatusOntology.pm',
+          'package KBS2::Util::SZSProblemStatusOntology;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport.pm',
+          'package KBS2::ImportExport;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport.pm',
+          'use KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport.pm',
+          '      #       "KBS2::Object::Theory" => 0,'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport.pm',
+          '      #       "KBS2::Object::Formula" => 0,'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport.pm',
+          '      #       "KBS2::Object::Formula String" => 0,'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport.pm',
+          '      #       "KBS2::Object::Formula Condensed String" => 0,'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport.pm',
+          '    # my $dir = "$UNIVERSAL::systemdir/KBS2/ImportExport/Mod";'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport.pm',
+          '    my $dir = "/var/lib/myfrdcsa/codebases/internal/freekbs2/KBS2/ImportExport/Mod";'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport.pm',
+          '    my $module = "KBS2::ImportExport::Mod::$mod"->new'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/HandlerManager.pm',
+          'package KBS2::HandlerManager;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/HandlerManager.pm',
+          '  foreach my $file (split /\\n/, `ls $UNIVERSAL::systemdir/KBS2/Handler`) {'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/HandlerManager.pm',
+          '      my $module = "KBS2/Handler/$name.pm";'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/StoreManager.pm',
+          'package KBS2::StoreManager;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/StoreManager.pm',
+          'use KBS2::Store::MySQL;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/StoreManager.pm',
+          'use KBS2::Rules;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/StoreManager.pm',
+          '     (Type => "KBS2::Store"));'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/StoreManager.pm',
+          '  $self->MyRules(KBS2::Rules->new);'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/StoreManager.pm',
+          '	KBS2::Store::MySQL->new'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport/Mod/OWL.pm',
+          'package KBS2::ImportExport::OWL;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport/Mod/Verber.pm',
+          'package KBS2::ImportExport::Mod::Verber;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport/Mod/KIF.pm',
+          'package KBS2::ImportExport::Mod::KIF;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport/Mod/KIF.pm',
+          'use KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport/Mod/LogicForm.pm',
+          'package KBS2::ImportExport::Mod::LogicForm;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport/Mod/CycL.pm',
+          'package KBS2::ImportExport::Mod::CycL;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport/Mod/CycL.pm',
+          'use KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/ImportExport/Mod/NaturalLanguage.pm',
+          'package KBS2::ImportExport::Mod::NaturalLanguage;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Handler/UniLang.pm',
+          'package KBS2::Handler::UniLang;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Handler/UniLang.pm',
+          'use base qw(KBS2::Handler);'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Util.pm',
+          'package KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/MySQL.pm',
+          'package KBS2::Store::MySQL;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/MySQL.pm',
+          'use KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/MySQL.pm',
+          'use KBS2::Util::SZSProblemStatusOntology;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/MySQL.pm',
+          '  my $dir = "$UNIVERSAL::systemdir/KBS2/Reasoner";'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/MySQL.pm',
+          '    ("KBS2::Reasoner::$reasoner"->new'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/MySQL.pm',
+          '    (KBS2::Util::SZSProblemStatusOntology->new());'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/MySQL.pm',
+          '				# FreeKBS2::Special::ConsPeriod->new(),'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/MySQL.pm',
+          '      ("TRUNCATE ALL THE TABLES IN THE ENTIRE FREEKBS2 DATABASE?")) {'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Collection.pm',
+          'package KBS2::Store::Collection;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Collection.pm',
+          'use KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Collection.pm',
+          'use KBS2::Util::SZSProblemStatusOntology;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Collection.pm',
+          '  my $dir = "$UNIVERSAL::systemdir/KBS2/Reasoner";'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Collection.pm',
+          '    ("KBS2::Reasoner::$reasoner"->new'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Collection.pm',
+          '    (KBS2::Util::SZSProblemStatusOntology->new());'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Collection.pm',
+          '				# FreeKBS2::Special::ConsPeriod->new(),'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Collection.pm',
+          '      ("TRUNCATE ALL THE TABLES IN THE ENTIRE FREEKBS2 DATABASE?")) {'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Memory.pm',
+          'package KBS2::Store::Memory;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Memory.pm',
+          'use KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Memory.pm',
+          'use KBS2::Util::SZSProblemStatusOntology;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Memory.pm',
+          '  my $dir = "$UNIVERSAL::systemdir/KBS2/Reasoner";'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Memory.pm',
+          '    ("KBS2::Reasoner::$reasoner"->new'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Memory.pm',
+          '    (KBS2::Util::SZSProblemStatusOntology->new());'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Memory.pm',
+          '				# FreeKBS2::Special::ConsPeriod->new(),'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Store/Memory.pm',
+          '      ("TRUNCATE ALL THE TABLES IN THE ENTIRE FREEKBS2 DATABASE?")) {'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Reasoner.pm',
+          'package KBS2::Reasoner;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Reasoner/Vampire.pm',
+          'package KBS2::Reasoner::Vampire;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Reasoner/Vampire.pm',
+          'use base qw(KBS2::Reasoner);'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Reasoner/Vampire.pm',
+          'use KBS2::ImportExport;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Reasoner/Vampire.pm',
+          '     KBS2::ImportExport->new'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Reasoner/Vampire.pm',
+          '    # now have to translate this result into KBS2 lingua'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Client.pm',
+          'package KBS2::Client;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Client.pm',
+          'use KBS2::ImportExport;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Client.pm',
+          'use KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Client.pm',
+          '  $self->Name($args{Name} || "KBS2-client-".rand());'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Client.pm',
+          '    (KBS2::ImportExport->new());'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2/Client.pm',
+          '		Receiver => "KBS2",'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2.pm',
+          'package KBS2;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2.pm',
+          'use KBS2::HandlerManager;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2.pm',
+          'use KBS2::ImportExport;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2.pm',
+          'use KBS2::StoreManager;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2.pm',
+          'use KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2.pm',
+          '    (KBS2::StoreManager->new());'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2.pm',
+          '    (KBS2::ImportExport->new());'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/KBS2.pm',
+          '    (KBS2::HandlerManager->new());'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/RTE/Engine/Formalize.pm',
+          'use KBS2::Client;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/RTE/Engine/Formalize.pm',
+          'use KBS2::ImportExport;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/RTE/Engine/Formalize.pm',
+          'use KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/RTE/Engine/Formalize.pm',
+          '    (KBS2::Client->new);'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/RTE/Engine/Formalize.pm',
+          '    (KBS2::ImportExport->new());'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/SetantaAgent/Library/Util.pm',
+          '  my $kbs = KBS2::Client;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/XWN.pm',
+          'use KBS2::ImportExport;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/XWN.pm',
+          'use KBS2::Util;'
+        ];
+$VAR1 = [
+          '/usr/share/perl5/XWN.pm',
+          '    (KBS2::ImportExport->new);'
+        ];

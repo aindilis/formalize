@@ -1,0 +1,13 @@
+(?Logic form processing? other systems)
+
+(Setup the additional engines
+       (not essential (new WSD engines))
+       (not essential (new Coreference Engines))
+       
+       (the suppose-suppose system)
+       (the XWN stuff)
+
+       (fix the reasoning with FreeKBS2)
+       )
+
+

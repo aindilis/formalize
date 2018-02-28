@@ -1,0 +1,150 @@
+andrewdo@justin:/var/lib/myfrdcsa/codebases/internal/formalize/scripts$ ./test-capability-text-analysis.pl 
+$VAR1 = {
+          'CoreferenceResolution' => 1,
+          'SemanticAnnotation' => 1,
+          'TermExtraction' => 1,
+          'NounPhraseExtraction' => 1,
+          'DateExtraction' => 1,
+          'Tokenization' => 1
+        };
+Doing SemanticAnnotation
+Initializing SemanticAnnotation
+Retrieving result from cache
+Doing NounPhraseExtraction
+Initializing NounPhraseExtraction
+Retrieving result from cache
+Doing DateExtraction
+Initializing DateExtraction
+Retrieving result from cache
+Doing CoreferenceResolution
+Initializing CoreferenceResolution
+Computing result and adding to cache
+<text>
+<s>
+<coref set-id="set_1">
+<w pos="dt">This</w>
+</coref>
+<w pos="vbz">is</w>
+<w pos="dt">the</w>
+<w pos="jj">first</w>
+<w pos="nn">time</w>
+<coref set-id="set_0">
+<w pos="prp">I</w>
+</coref>
+<w pos="vbp">have</w>
+<w pos="vbn">tried</w>
+<coref set-id="set_1">
+<w pos="dt">this</w>
+</coref>
+<w pos=".">.</w>
+</s><s>
+<coref set-id="set_0">
+<w pos="prp">I</w>
+</coref>
+<w pos="vbp">wonder</w>
+<w pos="wrb">how</w>
+<w pos="rb">well</w>
+<w pos="prp">it</w>
+<w pos="md">will</w>
+<w pos="vb">work</w>
+<w pos=".">.</w>
+</s><s>
+<w pos="rb">Hopefully</w>
+<w pos=",">,</w>
+<w pos="rb">well</w>
+<w pos=".">.</w>
+</s>
+</text>
+
+Doing TermExtraction
+Initializing TermExtraction
+Retrieving result from cache
+Doing Tokenization
+Initializing Tokenization
+Retrieving result from cache
+$VAR1 = {
+          'CoreferenceResolution' => [
+                                       {
+                                         'Ids' => {
+                                                    'set_1' => {
+                                                               'This' => 1,
+                                                               'this' => 1
+                                                             },
+                                                    'set_0' => {
+                                                               'I' => 2
+                                                             }
+                                                  },
+                                         'String' => [
+                                                       '<<<This|this>>>',
+                                                       'is',
+                                                       'the',
+                                                       'first',
+                                                       'time',
+                                                       '<<<I>>>',
+                                                       'have',
+                                                       'tried',
+                                                       '<<<This|this>>>',
+                                                       '.',
+                                                       '<<<I>>>',
+                                                       'wonder',
+                                                       'how',
+                                                       'well',
+                                                       'it',
+                                                       'will',
+                                                       'work',
+                                                       '.',
+                                                       'Hopefully',
+                                                       ',',
+                                                       'well',
+                                                       '.'
+                                                     ]
+                                       }
+                                     ],
+          'SemanticAnnotation' => [
+                                    {
+                                      'CalaisSimpleOutputFormat' => {},
+                                      'Description' => {
+                                                         'docDate' => '2009-10-20 21:22:53.593',
+                                                         'externalID' => 'testing',
+                                                         'externalMetadata' => {},
+                                                         'allowDistribution' => 'true',
+                                                         'allowSearch' => 'true',
+                                                         'docTitle' => {},
+                                                         'id' => 'http://id.opencalais.com/2qN2uHitGhWQOoxFCLakKg',
+                                                         'about' => 'http://d.opencalais.com/dochash-1/0f786371-90c2-3af6-b178-384a64f0abd0',
+                                                         'calaisRequestID' => '68d3dc26-2478-e7c1-1247-4e76a5b68072',
+                                                         'submitter' => 'FRDCSA'
+                                                       }
+                                    }
+                                  ],
+          'TermExtraction' => [
+                                []
+                              ],
+          'NounPhraseExtraction' => [
+                                      'first time',
+                                      1,
+                                      'hopefully',
+                                      1,
+                                      'time',
+                                      1
+                                    ],
+          'Tokenization' => [
+                              'This is the first time I have tried this . 
+I wonder how well it will work . 
+Hopefully , well . 
+'
+                            ],
+          'DateExtraction' => [
+                                '<doc>
+<s><lex pos=det>This</lex> <lex pos=vbz>is</lex> <lex pos=det>the</lex> <lex pos=jj>first</lex> <lex pos=nn>time</lex> <lex pos=prp>I</lex> <lex pos=vbp>have</lex> <lex pos=vbn>tried</lex> <lex pos=det>this</lex> <lex pos=pp>.</lex></s>
+
+<s><lex pos=prp>I</lex> <lex pos=vbp>wonder</lex> <lex pos=wrb>how</lex> <lex pos=rb>well</lex> <lex pos=prp>it</lex> <lex pos=md>will</lex> <lex pos=vb>work</lex> <lex pos=pp>.</lex></s>
+
+<s><lex pos=nnp>Hopefully</lex> <lex pos=ppc>,</lex> <lex pos=rb>well</lex> <lex pos=pp>.</lex></s>
+
+
+
+</doc>
+'
+                              ]
+        };

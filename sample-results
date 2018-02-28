@@ -1,0 +1,97 @@
+Agent <Formalize> was already disconnected
+Agent Formalize deregistered
+Agent Formalize registered
+Formalize, Is this used for parsing documents?
+<message>
+  <id>1</id>
+  <sender>Formalize</sender>
+  <receiver>UniLang-Client</receiver>
+  <date>Mon Nov 10 20:37:33 CST 2008</date>
+  <contents></contents>
+  <data>$VAR1 = {
+          '_DoNotLog' => 1,
+          'Results' => [
+                         bless( {
+                                  'Contents' => '200 ((#$and (#$thereExists ?PARSING8-1 (#$and (#$isa ?PARSING8-1
+(#$ThingDescribableAsFn (#$WordFn "parsing") #$Verb)) (#$isa ?PARSING8-1
+#$Situation) (#$doneBy ?PARSING8-1 ?THIS3) (#$thereExists ?DOCUMENTS13
+(#$and (#$isa ?DOCUMENTS13 #$TextualMaterial) (#$possessiveRelation
+?DOCUMENTS13 :NOUN))))) (#$thingComprehended ?UNDERSTANDING10 :OBJECT)
+(#$isa ?UNDERSTANDING10 #$Comprehending) (#$doneBy ?UNDERSTANDING10 ?THIS3)
+(#$isa ?USED6 (#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb))
+(#$thereExists ?SUBJECT-1 (#$usesIn ?SUBJECT-1 ?THIS3 ?PARSING8)) (#$isa
+?USED6 (#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb))
+(#$thereExists ?SUBJECT-2 (#$usesIn ?SUBJECT-2 ?THIS3 ?PARSING8)) (#$isa
+?USED6 (#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb))
+(#$thereExists ?SUBJECT-3 (#$usesIn ?SUBJECT-3 ?THIS3 ?UNDERSTANDING10))
+(#$isa ?USED6 (#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb))
+(#$thereExists ?SUBJECT-4 (#$usesIn ?SUBJECT-4 ?THIS3 ?UNDERSTANDING10)))
+(#$and (#$thereExists ?PARSING8-1 (#$and (#$isa ?PARSING8-1
+(#$ThingDescribableAsFn (#$WordFn "parsing") #$Verb)) (#$isa ?PARSING8-1
+#$Situation) (#$doneBy ?PARSING8-1 ?THIS3) (#$thereExists ?DOCUMENTS13
+(#$and (#$isa ?DOCUMENTS13 #$TextualMaterial) (#$possessiveRelation
+?DOCUMENTS13 :NOUN))))) (#$expertRegarding ?THIS3 :OBJECT) (#$isa ?USED6
+(#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb)) (#$thereExists
+?SUBJECT-1 (#$usesIn ?SUBJECT-1 ?THIS3 ?PARSING8)) (#$isa ?USED6
+(#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb)) (#$thereExists
+?SUBJECT-2 (#$usesIn ?SUBJECT-2 ?THIS3 ?PARSING8)) (#$isa ?USED6
+(#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb)) (#$thereExists
+?SUBJECT-3 (#$usesIn ?SUBJECT-3 ?THIS3 ?UNDERSTANDING10)) (#$isa ?USED6
+(#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb)) (#$thereExists
+?SUBJECT-4 (#$usesIn ?SUBJECT-4 ?THIS3 ?UNDERSTANDING10))) (#$and
+(#$thereExists ?UNDERSTANDING10-1 (#$and (#$thingComprehended
+?UNDERSTANDING10-1 :OBJECT) (#$isa ?UNDERSTANDING10-1 #$Comprehending)
+(#$doneBy ?UNDERSTANDING10-1 ?THIS3) (#$thereExists ?PARSING8-1 (#$and
+(#$isa ?PARSING8-1 (#$ThingDescribableAsFn (#$WordFn "parsing") #$Verb))
+(#$isa ?PARSING8-1 #$Situation) (#$doneBy ?PARSING8-1 ?THIS3)
+(#$thereExists ?DOCUMENTS13 (#$and (#$isa ?DOCUMENTS13 #$TextualMaterial)
+(#$possessiveRelation ?DOCUMENTS13 :NOUN))))))) (#$isa ?USED6
+(#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb)) (#$thereExists
+?SUBJECT-1 (#$usesIn ?SUBJECT-1 ?THIS3 ?PARSING8)) (#$isa ?USED6
+(#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb)) (#$thereExists
+?SUBJECT-2 (#$usesIn ?SUBJECT-2 ?THIS3 ?PARSING8)) (#$isa ?USED6
+(#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb)) (#$thereExists
+?SUBJECT-3 (#$usesIn ?SUBJECT-3 ?THIS3 ?UNDERSTANDING10)) (#$isa ?USED6
+(#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb)) (#$thereExists
+?SUBJECT-4 (#$usesIn ?SUBJECT-4 ?THIS3 ?UNDERSTANDING10))) (#$and
+(#$thereExists ?PARSING8-1 (#$and (#$isa ?PARSING8-1
+(#$ThingDescribableAsFn (#$WordFn "parsing") #$Verb)) (#$isa ?PARSING8-1
+#$Situation) (#$doneBy ?PARSING8-1 ?THIS3) (#$thereExists ?DOCUMENTS13
+(#$and (#$isa ?DOCUMENTS13 #$TextualMaterial) (#$possessiveRelation
+?DOCUMENTS13 :NOUN))))) (#$beliefs ?THIS3 :CLAUSE) (#$isa ?UNDERSTANDING10
+#$Comprehending) (#$resultantThought ?UNDERSTANDING10 :CLAUSE) (#$doneBy
+?UNDERSTANDING10 ?THIS3) (#$isa ?USED6 (#$ThingDescribableAsFn (#$WordFn
+"mainly") #$Adverb)) (#$thereExists ?SUBJECT-1 (#$usesIn ?SUBJECT-1 ?THIS3
+?PARSING8)) (#$isa ?USED6 (#$ThingDescribableAsFn (#$WordFn "mainly")
+#$Adverb)) (#$thereExists ?SUBJECT-2 (#$usesIn ?SUBJECT-2 ?THIS3
+?PARSING8)) (#$isa ?USED6 (#$ThingDescribableAsFn (#$WordFn "mainly")
+#$Adverb)) (#$thereExists ?SUBJECT-3 (#$usesIn ?SUBJECT-3 ?THIS3
+?UNDERSTANDING10)) (#$isa ?USED6 (#$ThingDescribableAsFn (#$WordFn
+"mainly") #$Adverb)) (#$thereExists ?SUBJECT-4 (#$usesIn ?SUBJECT-4 ?THIS3
+?UNDERSTANDING10))) (#$and (#$thereExists ?UNDERSTANDING10-1 (#$and
+(#$beliefs ?THIS3 :CLAUSE) (#$isa ?UNDERSTANDING10-1 #$Comprehending)
+(#$resultantThought ?UNDERSTANDING10-1 :CLAUSE) (#$doneBy
+?UNDERSTANDING10-1 ?THIS3) (#$thereExists ?PARSING8-1 (#$and (#$isa
+?PARSING8-1 (#$ThingDescribableAsFn (#$WordFn "parsing") #$Verb)) (#$isa
+?PARSING8-1 #$Situation) (#$doneBy ?PARSING8-1 ?THIS3) (#$thereExists
+?DOCUMENTS13 (#$and (#$isa ?DOCUMENTS13 #$TextualMaterial)
+(#$possessiveRelation ?DOCUMENTS13 :NOUN))))))) (#$isa ?USED6
+(#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb)) (#$thereExists
+?SUBJECT-1 (#$usesIn ?SUBJECT-1 ?THIS3 ?PARSING8)) (#$isa ?USED6
+(#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb)) (#$thereExists
+?SUBJECT-2 (#$usesIn ?SUBJECT-2 ?THIS3 ?PARSING8)) (#$isa ?USED6
+(#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb)) (#$thereExists
+?SUBJECT-3 (#$usesIn ?SUBJECT-3 ?THIS3 ?UNDERSTANDING10)) (#$isa ?USED6
+(#$ThingDescribableAsFn (#$WordFn "mainly") #$Adverb)) (#$thereExists
+?SUBJECT-4 (#$usesIn ?SUBJECT-4 ?THIS3 ?UNDERSTANDING10))))
+',
+                                  'ID' => '0',
+                                  'Receiver' => 'Formalize',
+                                  'Data' => {},
+                                  'Date' => 'Mon Nov 10 20:37:33 CST 2008',
+                                  'Sender' => 'OpenCyc'
+                                }, 'UniLang::Util::Message' )
+                       ]
+        };
+</data>
+</message>
